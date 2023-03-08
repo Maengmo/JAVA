@@ -1,0 +1,12 @@
+요구사항 : Refrigerator 클래스와 Item 클래스를 설계하시오.
+
+조건
+Refrigerator 객체의 정보
+Item을 최대 100개까지 담을 수 있다.(멤버 변수 = Item 배열)
+Refrigerator 객체의 사용
+Item을 냉장고에 넣는다. void add(Item item);
+Item을 냉장고에서 꺼낸다. Item get(String name);
+냉장고에 있는 Item의 개수를 확인한다. int count();
+냉장고에 있는 Item을 확인한다. void listItem();
+Item 객체의 정보
+식품명, 유통기한

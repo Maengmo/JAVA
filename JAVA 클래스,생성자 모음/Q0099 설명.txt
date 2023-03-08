@@ -1,0 +1,17 @@
+요구사항 : 시간 클래스를 구현하시오.
+
+조건
+생성자 오버로딩을 구현하시오.
+2자리 출력
+Time
+시간 클래스
+상태
+hour: 시(0 이상 양의 정수)
+minute: 분(0 이상 양의 정수)
+second: 초(0 이상 양의 정수)
+행동
+public Time()
+public Time(int hour, int minute, int second)
+public Time(int minute, int second)
+public Time(int second)
+String info()
