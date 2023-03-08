@@ -1,0 +1,72 @@
+요구사항 : 포장하는 직원 객체를 만드시오. 그 직원을 통해 연필, 지우개, 볼펜, 자를 포장하시오.
+
+조건
+Static 멤버를 구현하시오.
+Packer
+사무용품을 포장하는 직원
+상태
+static pencilCount
+연필 포장 개수(개)
+static eraserCount 
+지우개 포장 개수(개)
+static ballPoinPenCount
+볼펜 포장 개수(개)
+static rulerCount
+자 포장 개수(개)
+행동
+void packing(Pencil pencil)
+연필을 검수하고 포장한다.
+Pencil pencil : 연필
+void packing(Eraser eraser)
+지우개를 검수하고 포장한다.
+Eraser eraser : 지우개
+void packing(BallPointPen ballPointPen)
+볼펜을 검수하고 포장한다.
+BallPointPen ballPointPen : 볼펜
+void packing(Ruler ruler)
+자를 검수하고 포장한다.
+Ruler ruler : 자
+void countPacking(int type)
+포장한 내용물 개수를 출력한다.
+int type : 출력할 내용물의 종류
+0 : 모든 내용물
+1 : 연필
+2 : 지우개
+3 : 볼펜
+4 : 자
+Pencil
+연필 클래스
+상태
+hardness
+흑연 등급(4B, 3B, 2B, B, HB, H, 2H, 3H, 4H)
+행동
+String info()
+연필의 정보를 반환한다.
+Eraser
+지우개 클래스
+상태
+size
+지우개 크기(Large, Medium, Small)
+행동
+String info()
+지우개의 정보를 반환한다.
+BallPointPen
+볼펜 클래스
+상태
+thickness
+볼펜 심 두께(0.3mm, 0.5mm, 0.7mm, 1mm, 1.5mm)
+color
+볼펜 색상(red, blue, green, black)
+행동
+String info()
+볼펜의 정보를 반환한다.
+Ruler
+자 클래스
+상태
+length
+자 길이(30cm, 50cm, 100cm)
+shape
+자 형태(줄자, 운형자, 삼각자)
+행동
+String info()
+자의 정보를 반환한다

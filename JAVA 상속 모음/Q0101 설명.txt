@@ -1,0 +1,112 @@
+요구사항 : 음료를 판매하고 그 매출액과 판매량을 구하시오.
+
+조건
+static 멤버를 구현하시오.
+Barista
+바리스타 클래스
+행동
+Espresso makeEspresso(int bean)
+에스프레소 1잔을 만든다.
+int bean : 원두량(g)
+return Espreeso : 에스프레소 1잔
+Espresso[] makeEspressoes(int bean, int count)
+에스프레소 N잔을 만든다.
+int bean : 원두량(g)
+int count : 음료 개수(잔)
+return Espresso[] : 에스프레소 N잔
+Latte makeLatte(int bean, int milk)
+라테 1잔을 만든다.
+int baen : 원두량(g)
+int milk : 우유량(ml)
+return Latte : 라테 1잔
+Latte[] makeLattes(int bean, int milk, int count)
+라테 N잔을 만든다.
+int baen : 원두량(g)
+int milk : 우유량(ml)
+int count : 음료 개수(잔)
+return Latte[] : 라테 N잔
+Americano makeAmericano(int bean, int water, int ice)
+아메리카노 1잔을 만든다.
+int baen : 원두량(g)
+int water : 물량(ml)
+int ice : 얼음 개수(개)
+return Americano : 아메리카노 1잔
+Americano[] makeAmericanos(int bean, int water, int ice, int count)
+아메리카노 N잔을 만든다.
+int baen : 원두량(g)
+int water : 물량(ml)
+int ice : 얼음 개수(개)
+int count : 음료 개수(잔)
+return Americano[] : 아메리카노 N잔
+void result()
+판매 결과를 출력한다.
+음료 판매량(에스프레소 판매 개수, 라테 판매 개수, 아메리카노 판매 개수)
+원자재 소비량(원두 소비량, 물 소비량, 우유 소비량, 얼음 소비량)
+매출액(원두 판매액, 물 판매액, 우유 판매액, 얼음 판매액)
+Coffee
+공용 정보 클래스
+상태
+static bean
+총 원두량(g)
+static water
+총 물 용량(ml)
+static ice
+총 얼음 개수(개)
+static milk
+총 우유 용량(ml)
+static beanUnitPrice
+원두 단가(원)
+1g당 1원
+static waterUnitPrice
+물 단가(원)
+1ml당 0.2원
+static iceUnitPrice
+얼음 단가(원)
+1개당 3원
+static milkUnitPrice
+우유 단가(원)
+1ml당 4원
+static beanTotalPrice
+원두 총 판매액(원)
+static waterTotalPrice
+물 총 판매액(원)
+static iceTotalPrice
+얼음 총 판매액(원)
+static milkTotalPrice
+우유 총 판매액(원)
+static americano
+아메리카노 총 판매 개수(잔)
+static latte
+라테 총 판매 개수(잔)
+static espresso
+에스프레소 총 판매 개수(잔)
+Espresso
+에스프레소 클래스
+상태
+bean
+에스프레소 생산 시 들어가는 원두량(g)
+행동
+void drink()
+커피를 마신다.(출력)
+Latte
+라테 클래스
+상태
+bean
+라테 생산 시 들어가는 원두량(g)
+milk
+라테 생산 시 들어가는 우유량(ml)
+행동
+void drink()
+커피를 마신다.(출력)
+Americano
+아메리카노 클래스
+상태
+bean
+아메리카노 생산 시 들어가는 원두량(g)
+water
+아메리카노 생산 시 들어가는 물량(ml)
+ice
+아메리카노 생산 시 들어가는 얼음 개수(개)
+행동
+void drink()
+커피를 마신다.(출력)
