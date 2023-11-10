@@ -105,7 +105,7 @@ public class MyArrayList {
 		}
 		return "올바른 인덱스 값을 넣어주세요";
 	}
-	//원하는 위치에 요소를 삽입
+	//원하는 위치에 요소를 삽입.
 	public boolean add(int index, String value) {
 		
 		if(checkList()) {
