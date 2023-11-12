@@ -32,6 +32,7 @@ public class Q0104 {
 		      System.out.println(list.get(i));
 		}
 		System.out.println();
+		System.out.println();
 
 		//수정
 		list.set(0, "우하하");
