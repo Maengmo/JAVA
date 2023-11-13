@@ -9,7 +9,7 @@ public class MyHashMap {
 	public MyHashMap() {
 		this.keys = new String[4];
 		this.values = new String[4];
-		this.index = 0;
+		this.index = 0; 
 	}
 	public String toString() {
 		String temp = "";
