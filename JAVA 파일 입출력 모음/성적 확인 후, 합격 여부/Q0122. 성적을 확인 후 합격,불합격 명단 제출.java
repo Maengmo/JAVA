@@ -9,6 +9,7 @@ public class Q0122 {
 		// TODO Auto-generated method stub
 		
 		m1();
+		//m2();
 	}
 
 	private static void m1() {
