@@ -14,6 +14,7 @@ public class Q0104 {
 		list.add("가가가");
 		list.add("나나나");
 		list.add("바나나");
+		list.add("사과");
 		
 		//System.out.println(list);
 		
