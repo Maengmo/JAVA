@@ -11,7 +11,7 @@ public class Q0092 {
 		b1.setAuthor("남궁성");
 		b1.setPublisher("도우출판");
 		b1.setIsbn("8994492038");
-		b1.setPage(1022);
+		b1.setPage(1022); 
 		
 		System.out.println(b1.info());
 	}
