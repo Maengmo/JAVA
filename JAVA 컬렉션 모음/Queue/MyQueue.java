@@ -2,7 +2,7 @@ package com.test.question;
 
 public class MyQueue {
 	private String[] list;
-	private int index;
+	private int index; 
 	
 	public MyQueue() {
 		this.list = new String[4];
