@@ -3,7 +3,7 @@ package com.test.question;
 public class MyStack {
 
 	private String [] list;
-	private int index;
+	private int index; 
 	
 	public MyStack() {
 		this.list = new String[4];
