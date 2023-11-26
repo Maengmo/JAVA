@@ -2,7 +2,7 @@ package com.test.question;
 
 import java.util.Scanner;
 
-public class Q007 {
+public class Q007 { 
 
 	public static void main(String[] args) {
 		//요구사항 : 영문 소문자를 1글자 입력받은 후 대문자로 변환해서 출력하시오.
