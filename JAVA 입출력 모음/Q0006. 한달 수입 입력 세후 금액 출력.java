@@ -3,7 +3,7 @@ package com.test.question;
 import java.util.Scanner;
 
 public class Q006 {
-
+ 
 	public static void main(String[] args) {
 		//요구사항 : 사용자의 한달 수입을 입력받아 세후 금액을 출력하시오.
 		
