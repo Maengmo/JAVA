@@ -1,6 +1,6 @@
 package com.test.question;
 
-public class Q0100 {
+public class Q0100 { 
 
 	public static void main(String[] args) {
 		//Packer : 사무용품을 포장하는 직원
