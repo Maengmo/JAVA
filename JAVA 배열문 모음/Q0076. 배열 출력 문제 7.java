@@ -3,7 +3,7 @@ package com.test.question;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q0076 {
+public class Q0076 { 
 
 	public static void main(String[] args) {
 		String[][] score = new String[10][3];
