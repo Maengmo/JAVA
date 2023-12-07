@@ -1,7 +1,7 @@
 package com.test.question;
 
 public class Q0059 {
-
+ 
 	public static void main(String[] args) {
 		
 		int num = 1;
