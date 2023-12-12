@@ -1,6 +1,6 @@
 package com.test.question;
 
-public class Q0060 {
+public class Q0060 { 
 
 	public static void main(String[] args) {
 		
