@@ -6,7 +6,7 @@ public class Q0099_Time {
 	private int minute;
 	private int second;
 
-
+ 
 public Q0099_Time() {
 	
 }
