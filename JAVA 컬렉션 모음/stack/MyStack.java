@@ -1,6 +1,6 @@
 package com.test.question;
 
-public class MyStack {
+public class MyStack { 
 
 	private String [] list;
 	private int index; 
