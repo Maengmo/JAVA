@@ -2,7 +2,7 @@ package com.test.question;
 
 import java.util.Scanner;
 
-public class Q0033 {
+public class Q0033 { 
 
 	public static void main(String[] args) {
 		//요구사항] 년도를 입력받아 해당 년도가 '평년' 인지 '윤년' 인지 출력하시오.
